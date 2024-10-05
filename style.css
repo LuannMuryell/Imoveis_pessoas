@@ -1,0 +1,47 @@
+/* Este arquivo se refere às regras de estilização aplicadas às páginas */
+
+html, body {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+    min-height: calc(100vh - 204px);
+    padding-bottom: 40px;
+    padding-top: 80px;
+
+}
+
+footer {
+    padding: 20px;
+    background-color: #c1c1c1;
+    max-height: 67px;
+    text-align: center;
+}
+
+header{
+    padding:40px; 
+    background-color:#c1c1c1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-height: 137px;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+    padding:20px;  
+}
+.navegation{
+    display:flex;
+    gap:10px;
+}
